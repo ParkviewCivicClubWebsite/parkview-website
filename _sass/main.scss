@@ -1,0 +1,67 @@
+$parkview-dark-green: #2e4e3a;
+$palett-ligh-green: #72bb97;
+$palett-brown: #bca567;
+$palett-light-red: #b26858;
+$palett-dark-red: #cb443a;
+$parkview-off-white: #fbf6e6;
+
+
+
+body {
+    background-color: $parkview-off-white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: $parkview-off-white;
+    background-color: $parkview-dark-green;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    overflow: hidden;
+    background-color: $parkview-dark-green;
+}
+
+.navbar-icon {
+    float: left;
+    height: 45px;
+    width: 50px;
+    background-color: $parkview-dark-green;
+}
+
+.header-image {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-item {
+    float: right;
+}
+
+.navbar-item a {
+    display: block;
+    color: $parkview-off-white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-item a:hover:not(.current) {
+    background-color: $palett-ligh-green;
+}
+
+.current {
+    background-color: $palett-light-red;
+}

@@ -1,0 +1,18 @@
+<nav>
+    <div class="navbar-icon">
+        <img class="header-image" src="/assets/images/navbar-parkview-icon.png">
+    </div>
+    <ul class="navbar">
+        {% for item in site.data.navigation %}
+            <li class="navbar-item">
+                {% if page.url == item.link %}
+                    <a href="{{item.link}}" class="current">{{ item.name }}</a>
+                {% elsif page.group == "minutes" and item.name == "Minutes" %}
+                    <a href="{{item.link}}" class="current">{{ item.name }}</a>
+                {% else %}
+                    <a href="{{item.link}}"> {{item.name}}</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
