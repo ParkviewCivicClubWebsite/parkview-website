@@ -1,12 +1,12 @@
 - name: Contact
-  link: /contact.html
+  link: /parkview-website/contact.html
 # - name: Forum
 #   link: /some_forum
 - name: Minutes
-  link: /minutes.html
+  link: /parkview-website/minutes.html
 - name: Dues
-  link: /dues.html
+  link: /parkview-website/dues.html
 - name: About Parkview
-  link: /about.html
+  link: /parkview-website/about.html
 - name: Home
-  link: /
+  link: /parkview-website/
